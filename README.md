@@ -1,4 +1,5 @@
 # Feedforward ANN for predicting linearly dependent data
+# Datasets, Features and Target value
 
 As part of this practical work, the problem of predicting the speed of a dump truck when performing transport and technological processes in a quarry using a neural network of direct propagation will be investigated. The result of the work implies obtaining the most accurate forecast value of the dump truck speed in response to a vector of known or interesting parameters (coordinates, direction of movement, weight of the load), which, as we think, have a linear relationship. Obviously, for a better understanding of the problem, we will give a brief description of the process:
 A quarry is a complex and dangerous production system, where a number of activities are carried out to extract and move rock with minerals. Transportation of rock from mining sites (excavator sites) to warehouses is carried out using heavy-duty dump trucks (such as Caterpillar, BelAZ, etc.) on an extensive network of roads. The speed at which dump trucks move depends on the direct amount of rock transported - the subsequent profit of the enterprise. At the same time, the speed of dump trucks is limited by safety rules (no more than 40 km / h) and varies depending on the direction of movement (when descending for loading - higher, when climbing for unloading - lower). To control the speed and other parameters of operation, each dump truck is equipped with a complex of on-board telemetry-sensors, computing devices and data transmission devices. Data is transmitted to the server and provided to the dispatcher system, which coordinates and optimizes the operation of all equipment in the quarry.
@@ -26,8 +27,9 @@ type - unknown value;
 received - unknown value;
 fix_status - number of status changes.
 
-The task and progress:
-Building the Regression Model using Python and MATLAB
+#Steps
+
+Building the Regression Model using Python(Keras) and MATLAB
 1. Download the file truck.xlsx 
 2. Open the file and filter the data by the Vehicle_type attribute, selecting the value truck.
 3. Copy the resulting array and save it to a separate file.
