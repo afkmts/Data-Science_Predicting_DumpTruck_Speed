@@ -30,7 +30,7 @@ The file truck.xlsx  is a real download of data from the on-board systems of hea
 # Steps
 
 Building the Regression Model using Python(Keras) and MATLAB
-1. Download the file truck.xlsx (https://drive.google.com/file/d/1hScBRraa-qL4w5-TO4eJCCwueE-qatBi/view?usp=sharing)
+1. Download the file truck.xlsx (https://drive.google.com/file/d/147DmSRIXDuCqtGWxdI_WkNDzVQaNeO8a/view?usp=sharing)
 2. Open the file and filter the data by the Vehicle_type attribute, selecting the value truck.
 3. Copy the resulting array and save it to a separate file.
 4. Carefully perform data exploration in accordance with the guidelines. Don't forget to remove explicit outliers while maintaining the integrity of the table structure. For example, note that the weight attribute has different thresholds for different dump trucks. This is due to the maximum load capacity. You may want to turn this parameter into a binary characteristic: 0-empty when weight < 5; 1-loaded when weight > 5. or exclude it altogether.
